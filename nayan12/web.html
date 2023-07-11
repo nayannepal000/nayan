@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsieweb</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    .menu{
+        float: left;
+        width: 20%;
+    }
+        .menuitem{
+            padding: 8px;
+            margin-top: 7px ;
+        border-bottom:1px solid gray;
+        overflow: auto;
+
+        }
+        .main {
+            float: left;
+            width: 60%;
+            padding: 0 20px;
+            overflow: hidden;
+        }
+        .right{
+            background-color: aliceblue;
+            float: left;
+            width: 20%;
+            padding: 10px 15px;
+            margin-top: 7px;
+        }
+        .footer{
+            background-color: aliceblue;
+            text-align: center;
+            padding: 10px;
+            margin-top: 7px;
+            font-size: 20px;
+        }
+        marquee {
+            font-weight: bold;
+        }
+        /* for web */
+        @media only screen and (max-width:800px)
+        /* for tablets*/
+        {
+            .main{
+                width: 80%;
+                padding :0;
+            }
+            .right{
+                width: 20%;
+            }
+            
+
+            }
+            /* 
+            for mobile */
+            @media only screen and (max-width:500px)
+            {
+            .menu,
+            .main,
+            .right{
+                width: 100%;
+            }
+            }
+
+</style>
+<body>
+    <div class="header">
+        <h1> Nepal </h1>
+        <h3> 8th wonderof the world</h3>
+    </div>
+    
+    <div style="overflow:auto;">
+    <div class="menu">
+        <div class="menuitem">food</div> 
+        <div class="menuitem">transport</div> 
+        <div class="menuitem">history</div> 
+        <div class="menuitem">gallery</div> 
+    </div>
+    <div class="main">
+        <h2> Brief Introduction</h2>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eligendi veritatis sunt.</p>
+        <img src="https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg" alt="Mount-Everest" style="width: 100%;" >
+    </div> 
+    <div class="right">
+<h2>full name</h2>
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic inventore nulla sunt dolores numquam molestias velit! Ea, fugit eos, recusandae nemo velit beatae nihil illum laudantium dicta laboriosam non! Natus.</p>
+<h2> where?</h2>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro facere saepe enim!</p>
+<h2> religion?</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem praesentium obcaecati, asperiores officia quis modi minima numquam neque nesciunt quae perspiciatis accusamus qui vitae nemo aut deleniti voluptatibus impedit atque quidem fuga iste quos tenetur necessitatibus sed? Distinctio vitae amet quidem cumque libero iure voluptatem, et iusto, debitis perspiciatis incidunt?</p>
+    </div>
+    <div class="footer">
+        <marquee behavior="1500" direction="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, saepe.</marquee>
+</body>
+</html>
