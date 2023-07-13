@@ -1,0 +1,26 @@
+div {
+    background-color: rgb(44, 54, 143);
+    opacity: 0.3;
+    border-radius: 5px;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+
+}
+
+p.uppercase {
+    text-transform: uppercase;
+}
+
+p.capitalize {
+    text-transform: capitalize;
+}
+
+p {
+    text-indent: 300px;
+    /* text-shadow: 4px 4px red; */
+    color: green;
+    /* text-shadow: 1px 1px 2px #feda75, 0 0 25px #fa7e1e, 0 0 5px #962fbf, 0 0 5px #4f5bd5; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
