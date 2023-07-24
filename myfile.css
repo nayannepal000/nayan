@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maincontainer{
+    width: 50%;
+    margin:auto;
+    background-color:wheat;
+    height: auto;
+    padding-bottom: 30px;
+}
+
+.imagecontainer{
+    width: auto;
+    height: auto;
+    background-image: url('https://cdn.kimkim.com/files/a/content_articles/featured_photos/95553f94d93aea6a42ea8ee16315830ac41fcd7a/big-742b52a5e89568dd813531fc63897836.jpg');
+    background-repeat: no repeat;
+    text-align: center;
+    color: red;
+}
+.headingtwostyle{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    color: aliceblue;
+}
+.color{
+    background-color: rgb(196, 196, 204);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: wheat
+}
+li a{
+    display: block;
+    float: left;
+    border-right: 1px solid white;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+     text-decoration: none;
+}
+li a:hover{
+    color: pink;
+}
+.active{
+    background-color: green;
+}
+div.gallery{
+    margin-top: 10px;
+    border: 1px solid aliceblue;
+}
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+.responsive{
+    padding: 0 6px;
+    float: left;
+    width: 48px; 
+
+}
+/* @media only screen and    */
