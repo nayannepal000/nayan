@@ -64,4 +64,38 @@ div.desc{
     width: 48px; 
 
 }
+.imgcontainer{
+    margin-top: 150px;
+}
+
 /* @media only screen and    */
+li.dropdown{
+    display: inline;
+}
+
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    min-width: 169px;
+    z-index: 1;
+}
+.dropdown-content a{
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+     border-radius: 1px solid green;
+}
+.dropdown-content  a:hover{
+    background-color: aliceblue;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.active{
+    background-color: aquamarine;
+}
