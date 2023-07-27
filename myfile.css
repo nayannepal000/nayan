@@ -12,8 +12,8 @@
 }
 
 .imagecontainer{
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 200px;
     background-image: url('https://cdn.kimkim.com/files/a/content_articles/featured_photos/95553f94d93aea6a42ea8ee16315830ac41fcd7a/big-742b52a5e89568dd813531fc63897836.jpg');
     background-repeat: no repeat;
     text-align: center;
@@ -24,6 +24,9 @@
     padding-bottom: 100px;
 
     color: aliceblue;
+}
+img{
+    width: 100%;
 }
 .color{
     background-color: rgb(196, 196, 204);
@@ -51,6 +54,7 @@ li a:hover{
     background-color: green;
 }
 div.gallery{
+    width: auto;
     margin-top: 10px;
     border: 1px solid aliceblue;
 }
@@ -61,7 +65,8 @@ div.desc{
 .responsive{
     padding: 0 6px;
     float: left;
-    width: 48px; 
+    width: 48%; 
+    height: auto;
 
 }
 .imgcontainer{
@@ -99,3 +104,25 @@ li.dropdown{
 .active{
     background-color: aquamarine;
 }
+[title~="everest"]{
+    border:5px solid yellowgreen;
+}
+[target~="self"]{
+    background-color: yellow;
+}
+[title*="mb"]{
+    border:5px solid yellowgreen;
+}
+.footercontainer{
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.about{
+    width: 60%;
+    float: left;
+}
+
